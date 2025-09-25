@@ -1,0 +1,37 @@
+body{ background:#f3f3f3;
+     font-family:Arial;
+      margin:0 }
+.hA{ background:blue; 
+    color:#fff; 
+    text-align:center; 
+    padding:12px ;
+    font-size: large;}
+.tA{ font-size:20px }
+.navx{ background:#090000;
+     color:#fff; padding:6px; 
+     text-align:center }
+.navx a{ color:#fff;
+     text-decoration:none;
+      margin:6px;
+       font-size:20px }
+.cardx:hover
+{
+    color:blue;
+}
+
+
+.gY{ display:grid;
+     grid-template-columns:1fr 1fr 1fr; 
+     gap:10px; 
+     margin:12px }
+.cardx{ background:#fff;
+     border:3px solid #ddd;
+      padding:12px }
+
+.ftrX{ background:#000; 
+    color:#fff;
+     text-align:center; 
+     padding:8px;
+      margin-top:300px }
+
+@media(max-width:900px){ .gY{ grid-template-columns:1fr } }

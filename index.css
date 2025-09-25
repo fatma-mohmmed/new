@@ -1,0 +1,96 @@
+
+.hA{
+  background: blue;      
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}
+
+.tA{
+  font-size: 13px;       
+}
+
+
+.navx{
+  background: #050000;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+}
+.navx a{
+  color: #fff;
+  text-decoration: none;
+  margin: 6px;
+  font-size: 16px;       
+}
+
+.navx a:hover{
+  text-decoration: underline;
+}
+
+
+.gX{
+  display: grid;
+  grid-template-columns: 2fr 1fr;  
+  gap: 12px;                       
+  margin: 12px;
+}
+.bx1{
+  background: #fff;
+  border: 2px solid #ccc;          
+  padding: 12px;
+  font-size: 18px;                 
+}
+
+
+.bx1 ul{
+  list-style: disc;
+  padding-right: 18px;            
+  margin: 8px 0;
+}
+.bx1 ul li{
+  margin: 6px 0;
+}
+
+
+.li1{
+  font-size: 20px;
+}
+
+
+.tb{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+.tb th,
+.tb td{
+  border: 2px solid #232222;      
+  padding: 8px;
+  text-align: center;
+}
+
+
+.ftrX{
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  margin-top: 100px;                
+}
+
+
+@media (max-width: 900px){
+  .gX{
+    grid-template-columns: 1fr;
+  }
+  .bx1{
+    font-size: 16px;               
+  }
+  .navx a{
+    display: inline-block;
+    margin: 4px 6px;
+  }
+}
+
+ 
