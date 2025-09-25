@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تواصل - مركز الكوليرا</title>
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<header class="hA">
+  <h1>تواصل معنا</h1>
+  <p class="tA">أرسل رسالتك</p>
+</header>
+
+<nav class="navx">
+  <a href="index.html">الرئيسية</a> |
+  <a href="about.html">عنّا</a> |
+  <a href="gallery.html">المعرض</a> |
+  <a href="contact.html">تواصل</a> |
+  <a href="account.html">الحساب</a>
+</nav>
+
+<main>
+  <section class="bx2 sN">
+    <form id="cForm" novalidate>
+      <label>الاسم<input type="text" placeholder="the name" name="n" required> </label>
+      <label>البريد<input type="email" placeholder="exmple@gmil.com" name="e" required></label>
+      <label>الرسالة<textarea name="m" rows="4" required></textarea></label>
+      <button type="submit">إرسال</button>
+    </form>
+    
+  </section>
+</main>
+
+<footer class="ftrX">
+  <p>© 2025</p>
+</footer>
+
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:11">
+  <div id="tOk" class="toast text-bg-success border-0" role="alert">
+    <div class="d-flex">
+      <div class="toast-body">تم الإرسال</div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
